@@ -1,0 +1,19 @@
+<assembly>
+    <id>assembly</id>
+    <formats>
+        <format>dir</format>
+        <format>tar.gz</format>
+    </formats>
+    <includeBaseDirectory>true</includeBaseDirectory>
+    <dependencySets>
+        <dependencySet>
+            <outputDirectory>lib</outputDirectory>
+        </dependencySet>
+    </dependencySets>
+    <fileSets>
+        <fileSet>
+            <directory>src/assembly/resources</directory>
+            <outputDirectory>${file.separator}</outputDirectory>
+        </fileSet>
+    </fileSets>
+</assembly>
